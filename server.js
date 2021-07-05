@@ -7,7 +7,7 @@ app.use(cors());
 app.options('*', cors());
 app.use(express.json({extended:false}));
 app.use('/api/productModel',require('./Api/product'));
-const Port= process.env.port || 3000;
+const Port= process.env.PORT || 3000;
 
 app.listen(Port, ()=> console.log('on 3000')) 
 process.on('SIGTERM', () => {
