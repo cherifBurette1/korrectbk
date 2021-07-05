@@ -1,0 +1,25 @@
+{
+    "name": "korrect",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.9",
+        "mongoose": "^5.13.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    },
+    "engines": {
+        "node": "^14"
+      }
+}
