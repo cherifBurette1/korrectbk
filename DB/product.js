@@ -4,13 +4,13 @@ const product = new mongoose.Schema({
         type:String,
     },
     Category:{
-        type:Number,
+        type:String,
     },
     Description:{
         type:String,
     },
     Tags:{
-        type:Number,
+        type:String,
     },
 })
 module.exports =mongoose.model('product',product);
